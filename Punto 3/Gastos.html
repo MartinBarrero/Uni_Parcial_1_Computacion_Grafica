@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Gastos</title>
+
+    <link rel="stylesheet" href="EstilosP3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="body_panel">
+
+    <aside class="menu">
+
+      <div class="logo_menu">
+        <img src="LogoMM.png" alt="Logo Money Makers">
+        <h1><strong>Money Makers</strong></h1>
+      </div>
+
+      <nav class="opciones">
+        <a class="opcion" href="Inicio.html">Inicio</a>
+        <a class="opcion" href="Ingresos.html">Ingresos</a>
+        <a class="opcion opcion_activa" href="Gastos.html">Gastos</a>
+        <a class="opcion" href="Reportes.html">Reportes</a>
+      </nav>
+
+      <a class="salir" href="LogIn.html">Cerrar sesion</a>
+
+    </aside>
+
+    <main class="panel">
+
+      <div class="encabezado">
+        <h2>Gastos</h2>
+        <p>Este es el detalle de tus gastos de octubre</p>
+      </div>
+
+      <div class="tarjetas">
+
+        <div class="tarjeta" style="border-top: 5px solid #101213;">
+          <p class="titulo_tarjeta">Total del mes</p>
+          <h3>$ 1.780.000</h3>
+          <p class="nota">Suma de todos tus gastos</p>
+        </div>
+
+        <div class="tarjeta" style="border-top: 5px solid #a61818;">
+          <p class="titulo_tarjeta">Arriendo</p>
+          <h3>$ 900.000</h3>
+          <p class="nota">Tu gasto fijo de cada mes</p>
+        </div>
+
+        <div class="tarjeta" style="border-top: 5px solid #5a0606;">
+          <p class="titulo_tarjeta">Mercado</p>
+          <h3>$ 420.000</h3>
+          <p class="nota">Comida y aseo del hogar</p>
+        </div>
+
+      </div>
+
+      <div class="fila_panel">
+
+        <div class="movimientos">
+
+          <h3>Gastos de octubre</h3>
+
+          <div class="movimiento">
+            <p>Arriendo</p>
+            <p>- $ 900.000</p>
+          </div>
+
+          <div class="movimiento">
+            <p>Mercado</p>
+            <p>- $ 420.000</p>
+          </div>
+
+          <div class="movimiento">
+            <p>Otros gastos</p>
+            <p>- $ 460.000</p>
+          </div>
+
+          <a class="boton_nuevo" href="#" style="background-color: #a61818;">Registrar Gasto</a>
+
+        </div>
+
+        <div class="grafica">
+
+          <h3>En que se van tus gastos</h3>
+
+          <div class="torta_caja">
+
+            <div class="torta" style="background-image: conic-gradient(#a61818 0% 51%, #5a0606 51% 74%, #d96b6b 74% 100%);"></div>
+
+            <div class="info_torta">
+
+              <div class="fila_info_torta">
+                <div class="color" style="background-color: #a61818;"></div>
+                <div>
+                  <p class="nombre_info_torta">Arriendo</p>
+                  <p class="dato_info_torta">$ 900.000 (51%)</p>
+                </div>
+              </div>
+
+              <div class="fila_info_torta">
+                <div class="color" style="background-color: #5a0606;"></div>
+                <div>
+                  <p class="nombre_info_torta">Mercado</p>
+                  <p class="dato_info_torta">$ 420.000 (23%)</p>
+                </div>
+              </div>
+
+              <div class="fila_info_torta">
+                <div class="color" style="background-color: #d96b6b;"></div>
+                <div>
+                  <p class="nombre_info_torta">Otros gastos</p>
+                  <p class="dato_info_torta">$ 460.000 (26%)</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </main>
+
+  </body>
+</html>

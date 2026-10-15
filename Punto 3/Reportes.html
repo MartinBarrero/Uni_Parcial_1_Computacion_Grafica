@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Reportes</title>
+
+    <link rel="stylesheet" href="EstilosP3.css">
+    <link rel="stylesheet" href="EstilosReportes.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="body_panel">
+
+    <aside class="menu">
+
+      <div class="logo_menu">
+        <img src="LogoMM.png" alt="Logo Money Makers">
+        <h1><strong>Money Makers</strong></h1>
+      </div>
+
+      <nav class="opciones">
+        <a class="opcion" href="Inicio.html">Inicio</a>
+        <a class="opcion" href="Ingresos.html">Ingresos</a>
+        <a class="opcion" href="Gastos.html">Gastos</a>
+        <a class="opcion opcion_activa" href="Reportes.html">Reportes</a>
+      </nav>
+
+      <a class="salir" href="LogIn.html">Cerrar sesion</a>
+
+    </aside>
+
+    <main class="panel">
+
+      <div class="encabezado encabezado_reportes">
+
+        <div>
+          <h2>Reportes</h2>
+          <p>Compara tus ingresos y gastos de los ultimos tres meses</p>
+        </div>
+
+        <a class="boton_pdf" href="Pdf.html">Descargar PDF</a>
+
+      </div>
+
+      <div class="tarjetas">
+
+        <div class="tarjeta" style="border-top: 5px solid #52c571;">
+          <p class="titulo_tarjeta">Ingresos del trimestre</p>
+          <h3>$ 9.300.000</h3>
+          <p class="nota">Agosto, septiembre y octubre</p>
+        </div>
+
+        <div class="tarjeta" style="border-top: 5px solid #a61818;">
+          <p class="titulo_tarjeta">Gastos del trimestre</p>
+          <h3>$ 5.350.000</h3>
+          <p class="nota">Agosto, septiembre y octubre</p>
+        </div>
+
+        <div class="tarjeta" style="border-top: 5px solid #101213;">
+          <p class="titulo_tarjeta">Ahorro del trimestre</p>
+          <h3>$ 3.950.000</h3>
+          <p class="nota">Lo que te quedo despues de gastar</p>
+        </div>
+
+      </div>
+
+      <div class="grafica">
+
+        <h3>Ingresos y gastos por mes</h3>
+
+        <div class="leyenda_reporte">
+
+          <div class="fila_info_torta">
+            <div class="color" style="background-color: #52c571;"></div>
+            <p class="nombre_info_torta">Ingresos</p>
+          </div>
+
+          <div class="fila_info_torta">
+            <div class="color" style="background-color: #a61818;"></div>
+            <p class="nombre_info_torta">Gastos</p>
+          </div>
+
+        </div>
+
+        <div class="fila_grafica">
+          <p class="etiqueta">AGOSTO</p>
+          <div class="barras_mes">
+            <div class="barra_valor">
+              <div class="barra" style="width: 73%; background-color: #52c571;"></div>
+              <p class="valor">$ 2.950.000</p>
+            </div>
+            <div class="barra_valor">
+              <div class="barra" style="width: 40%; background-color: #a61818;"></div>
+              <p class="valor">$ 1.620.000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="fila_grafica">
+          <p class="etiqueta">SEPTIEMBRE</p>
+          <div class="barras_mes">
+            <div class="barra_valor">
+              <div class="barra" style="width: 76%; background-color: #52c571;"></div>
+              <p class="valor">$ 3.100.000</p>
+            </div>
+            <div class="barra_valor">
+              <div class="barra" style="width: 48%; background-color: #a61818;"></div>
+              <p class="valor">$ 1.950.000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="fila_grafica">
+          <p class="etiqueta">OCTUBRE</p>
+          <div class="barras_mes">
+            <div class="barra_valor">
+              <div class="barra" style="width: 80%; background-color: #52c571;"></div>
+              <p class="valor">$ 3.250.000</p>
+            </div>
+            <div class="barra_valor">
+              <div class="barra" style="width: 44%; background-color: #a61818;"></div>
+              <p class="valor">$ 1.780.000</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="movimientos">
+
+        <h3>Ahorro de cada mes</h3>
+
+        <div class="movimiento">
+          <p>Agosto</p>
+          <p>$ 1.330.000</p>
+        </div>
+
+        <div class="movimiento">
+          <p>Septiembre</p>
+          <p>$ 1.150.000</p>
+        </div>
+
+        <div class="movimiento">
+          <p>Octubre</p>
+          <p>$ 1.470.000</p>
+        </div>
+
+      </div>
+
+    </main>
+
+  </body>
+</html>

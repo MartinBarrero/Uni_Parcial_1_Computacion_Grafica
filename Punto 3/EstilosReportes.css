@@ -1,0 +1,28 @@
+.leyenda_reporte {
+    margin-bottom: 30px;
+
+    display: flex;
+    gap: 35px;
+}
+
+.barras_mes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.encabezado_reportes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton_pdf {
+    background-color: #2075b2;
+    color: #fcfcfc;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 14px 25px;
+}

@@ -1,0 +1,269 @@
+body {
+    background-color: #eaf1f1;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.body_panel {
+    display: grid;
+    grid-template-columns: 270px auto;
+    grid-template-rows: minmax(100vh, auto);
+}
+
+.menu {
+    background-color: #101213;
+    color: #f2f5f5;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.logo_menu {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.logo_menu img {
+    width: 55px;
+    margin-left: -2px;
+    margin-right: -4px;
+}
+
+.logo_menu h1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.opcion {
+    color: #f2f5f5;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 12px 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.opcion_activa {
+    background-color: #2075b2;
+    font-weight: 600;
+}
+
+.salir {
+    background-color: #5a0606;
+    color: #f2f5f5;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 7px;
+    text-align: center;
+    padding: 12px;
+    margin-top: auto;
+}
+
+.panel {
+    padding: 40px 50px 60px 50px;
+}
+
+.encabezado h2 {
+    color: #101213;
+    font-size: 30px;
+    margin: 0;
+}
+
+.encabezado p {
+    color: #0d0d0d;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.tarjetas {
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.tarjeta {
+    background-color: #fbfafa;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.titulo_tarjeta {
+    color: #0d0d0d;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.tarjeta h3 {
+    color: #101213;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nota {
+    color: #0d0d0d;
+    font-size: 13px;
+    margin: 0;
+}
+
+.grafica {
+    background-color: #fbfafa;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.grafica h3 {
+    color: #101213;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.fila_grafica {
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: 130px auto;
+    align-items: center;
+    gap: 15px;
+}
+
+.etiqueta {
+    color: #101213;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+
+.barra_valor {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.barra {
+    height: 35px;
+    border-radius: 5px;
+}
+
+.valor {
+    color: #101213;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.movimientos {
+    background-color: #fbfafa;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.movimientos h3 {
+    color: #101213;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.movimiento {
+    border-bottom: 1px solid #eaf1f1;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movimiento p {
+    margin: 12px 0;
+}
+
+.fila_panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    gap: 25px;
+}
+
+.torta_caja {
+    display: grid;
+    grid-template-columns: 180px auto;
+    align-items: center;
+    gap: 30px;
+}
+
+.torta {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.info_torta {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fila_info_torta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.nombre_info_torta {
+    color: #101213;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.dato_info_torta {
+    color: #0d0d0d;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.boton_nuevo {
+    color: #fcfcfc;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 7px;
+    text-align: center;
+    padding: 14px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+    display: block;
+}
