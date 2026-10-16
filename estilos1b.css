@@ -1,0 +1,91 @@
+body {
+    background-color: #fbfafa;
+}
+
+header {
+    background-color: rgb(13, 4, 81);
+    width: auto;
+    height: 150px;
+    border-radius: 7px;
+    
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cuadro_header {
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+}
+
+main {
+    height: 770px;
+
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+nav {
+    height: 770px;
+
+    display: grid;
+    grid-template-columns: 330px 330px;
+    grid-template-rows: 330px 330px;
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+}
+
+.cuadro_main {
+    background-color: rgb(176, 174, 174);
+    border-radius:  10px;
+}
+
+aside {
+    background-color: rgb(6, 1, 43);
+}
+
+.caja1 {
+    height: 30%;
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+}
+
+.cuadro1_aside {
+    margin-top: 10px;
+    margin-left: auto;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.circulo {
+    background-color: #f9d75b;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.caja2 {
+    height: 70%;
+
+    display: grid;
+    grid-template-rows: repeat(11, 5%);
+    gap: 18px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.cuadro2_aside {
+    background-color: #fbfafa;
+    height: 25px;
+    margin-left: auto;
+    border-radius: 5px;
+}

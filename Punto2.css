@@ -1,0 +1,256 @@
+body{
+    margin:0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+.barra-superior{
+    background-color: black;
+    color:white;
+    padding:10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barra-superior p{
+    margin: 0;
+    font-size: 13px;
+}
+.opciones {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.opciones a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.suscribete {
+    background-color: #C51C27;
+    padding: 8px 12px;
+}
+.nombre-periodico{
+    text-align:  center;
+    padding: 25px 0 15px;
+}
+.nombre-periodico h1{
+    font-family: georgia, serif;
+    font-size: 65px;
+    margin: 0;
+    color: black;
+}
+.nombre-periodico p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin: 0;
+    color: #171717;
+}
+.nombre-periodico::before {
+    content: "";
+    display: block;
+    width: 430px;
+    max-width: 90%;
+    height: 5px;
+    background-color: #C51C27;
+    margin: 0 auto 5px;
+}
+
+.menu-navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 15px 20px;
+    margin: 0 40px;
+    border-top: 1px solid #AAAAAA;
+    border-bottom: 2px solid #171717;
+    flex-wrap: wrap;
+}
+
+.menu-navegacion a {
+    text-decoration: none;
+    color: #171717;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu-navegacion a.activo {
+    color: #C51C27;
+}
+
+.menu-navegacion a:hover {
+    color: #C51C27;
+}
+
+main {
+    margin: 25px 40px;
+}
+
+.noticia-destacada {
+    max-width: 420px;
+}
+
+.categoria {
+    color: #C51C27;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.noticia-destacada h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.descripcion {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    line-height: 1.4;
+    color: #444444;
+}
+
+.leer-mas {
+    display: inline-block;
+    background-color: #C51C27;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.noticia-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.imagen-principal {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.lo-mas-leido {
+    background-color: #F3F3F3;
+    padding: 20px;
+    min-width: 0;
+}
+
+.lo-mas-leido h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin-top: 0;
+    border-top: 4px solid #C51C27;
+    padding-top: 10px;
+}
+
+.noticia-popular {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.noticia-popular span {
+    color: #C51C27;
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+
+.noticia-popular p {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+.portada {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 25px;
+    align-items: start;
+}
+.noticias-principales {
+    min-width: 0;
+}
+
+.noticias-secundarias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.noticia-secundaria img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.noticia-secundaria .categoria {
+    font-size: 12px;
+    margin: 8px 0 5px;
+}
+
+.noticia-secundaria h3 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.noticia-secundaria > p:last-child {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.4;
+}
+
+.mas-noticias {
+    margin-top: 35px;
+    padding-top: 15px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.mas-noticias h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin: 0 0 20px;
+}
+
+.contenedor-mas-noticias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.tarjeta-noticia img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.tarjeta-noticia .categoria {
+    font-size: 12px;
+    margin: 8px 0 5px;
+}
+
+.tarjeta-noticia h3 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.tarjeta-noticia > p:last-child {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.4;
+}
+
